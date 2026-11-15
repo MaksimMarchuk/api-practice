@@ -1,0 +1,60 @@
+.main {
+    background-color: #0E0E0E;
+    display: flex;
+    justify-content: center;
+}
+
+#api-div{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1100px;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin-top: 100px;
+}
+
+.card-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+        width: 180px;
+        height: 227px;
+        border-top-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+    }
+
+    .event-title {
+        font-family: Montserrat;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: center;
+        color: #DC56C5;
+        max-width: 194px;
+    }
+
+    .event-date {
+        font-family: Montserrat;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: center;
+        color: white;
+    }
+
+    .event-location {
+        font-family: Montserrat;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: center;
+        color: white;
+        max-width: 194px;
+    }
+}
